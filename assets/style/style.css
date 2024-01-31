@@ -261,46 +261,92 @@
 }
 
 .service.s-1.h3 {
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-
+    font-size: 20px;
 }
-.illu{
-    padding-left: 20px;
+
+.ht {
+    width: 27px;
+    height: 40px;
+    margin: 18px;
     text-align: center;
 }
 
+.cs {
+    width: 25px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
 
+.js {
+    width: 33px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
 
 .ai {
-    width: 15%;
+    width: 34px;
+    height: 40px;
+    margin: 18px;
     text-align: center;
 
 }
 
 .ps {
-    width: 15%;
+    width: 35px;
+    height: 40px;
+    margin: 18px;
     text-align: center;
 
 }
 
-
+.fg {
+    width: 30px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
 
 .tw {
-    width: 13%;
+    width: 33px;
+    height: 40px;
+    margin: 18px;
     text-align: center;
 }
 
+.bs {
+    width: 33px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
 
+.wpr {
+    width: 35px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
 
 .jq {
-    width: 13%;
+    width: 40px;
+    height: 40px;
+    margin: 18px;
     text-align: center;
 }
 
+.sop {
+    width: 30px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
 
 .gh {
-    width: 13%;
+    width: 40px;
+    height: 40px;
+    margin: 18px;
     text-align: center;
 }
 
@@ -325,11 +371,7 @@
 .skill {
     margin: 10px 0px;
 }
-.s-icon{
-    font-size: 25px;
-    color: #E33954;
-    padding-right: 20px;
-}
+
 
 
 .portfolio {
