@@ -261,92 +261,46 @@
 }
 
 .service.s-1.h3 {
-    font-size: 20px;
-}
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 
-.ht {
-    width: 27px;
-    height: 40px;
-    margin: 18px;
+}
+.illu{
+    padding-left: 20px;
     text-align: center;
 }
 
-.cs {
-    width: 25px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
 
-.js {
-    width: 33px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
 
 .ai {
-    width: 34px;
-    height: 40px;
-    margin: 18px;
+    width: 15%;
     text-align: center;
 
 }
 
 .ps {
-    width: 35px;
-    height: 40px;
-    margin: 18px;
+    width: 15%;
     text-align: center;
 
 }
 
-.fg {
-    width: 30px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
+
 
 .tw {
-    width: 33px;
-    height: 40px;
-    margin: 18px;
+    width: 13%;
     text-align: center;
 }
 
-.bs {
-    width: 33px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
 
-.wpr {
-    width: 35px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
 
 .jq {
-    width: 40px;
-    height: 40px;
-    margin: 18px;
+    width: 13%;
     text-align: center;
 }
 
-.sop {
-    width: 30px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
 
 .gh {
-    width: 40px;
-    height: 40px;
-    margin: 18px;
+    width: 13%;
     text-align: center;
 }
 
@@ -371,7 +325,11 @@
 .skill {
     margin: 10px 0px;
 }
-
+.s-icon{
+    font-size: 25px;
+    color: #E33954;
+    padding-right: 20px;
+}
 
 
 .portfolio {
