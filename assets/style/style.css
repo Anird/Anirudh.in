@@ -920,7 +920,7 @@ footer span {
 }
 
 .service.s-1.h3 {
-    font-size: 20px;
+    font-size: 0px;
 }
 
 .main {
@@ -982,7 +982,7 @@ footer span {
         margin-bottom: 25px;
         color: #fff;
         text-align: center;
-        font-size: 10px;
+        font-size: 20px;
         color: #E33954;
         font-family: 'Poppins', sans-serif;
     }
