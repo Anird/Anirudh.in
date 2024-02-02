@@ -1,0 +1,74 @@
+/* service */
+.txt {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 20px;
+
+
+}
+
+.service {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.service h2 {
+    font-size: 25px;
+    color: #E33954;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.service_para {
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service_heading {
+    text-align: center;
+}
+
+
+
+.service_container {
+    padding: 60px 0px;
+}
+
+.service.s-1.h3 {
+    font-size: 20px;
+}
+
+.main {
+    width: 10%;
+    height: 10%;
+   
+}
+
+
+.skill :hover {
+    background-color: #161922;
+    color: #000;
+    }
+
+
+.s-1 {
+    background-color: #3B2B68;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.skill {
+    margin: 10px 0px;
+}
