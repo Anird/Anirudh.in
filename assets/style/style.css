@@ -225,6 +225,8 @@
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    text-align: center;
+    padding-left: 20px;
 
 
 }
@@ -264,91 +266,12 @@
     font-size: 20px;
 }
 
-.ht {
-    width: 27px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
+.main {
+    width: 10%;
+    height: 10%;
+   
 }
 
-.cs {
-    width: 25px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.js {
-    width: 33px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.ai {
-    width: 34px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-
-}
-
-.ps {
-    width: 35px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-
-}
-
-.fg {
-    width: 30px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.tw {
-    width: 33px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.bs {
-    width: 33px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.wpr {
-    width: 35px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.jq {
-    width: 40px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.sop {
-    width: 30px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.gh {
-    width: 40px;
-    height: 40px;
-    margin: 18px;
-    text-align: center;
-}
 
 .skill :hover {
     background-color: #161922;
