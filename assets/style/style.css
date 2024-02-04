@@ -174,7 +174,6 @@
 
 .img_about {
     width: 100%;
-    height: 100%;
 }
 
 .about_image {
@@ -226,8 +225,6 @@
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    text-align: center;
-    padding-left: 20px;
 
 
 }
@@ -267,12 +264,91 @@
     font-size: 20px;
 }
 
-.main {
-    width: 10%;
-    height: 10%;
-   
+.ht {
+    width: 27px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
 }
 
+.cs {
+    width: 25px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.js {
+    width: 33px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.ai {
+    width: 34px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+
+}
+
+.ps {
+    width: 35px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+
+}
+
+.fg {
+    width: 30px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.tw {
+    width: 33px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.bs {
+    width: 33px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.wpr {
+    width: 35px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.jq {
+    width: 40px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.sop {
+    width: 30px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+.gh {
+    width: 40px;
+    height: 40px;
+    margin: 18px;
+    text-align: center;
+}
 
 .skill :hover {
     background-color: #161922;
@@ -294,15 +370,11 @@
 
 .skill {
     margin: 10px 0px;
-    width: 100%;
-    height: 100%;
 }
 
 
 
 .portfolio {
-    width: 100%;
-    height: 100%;
     padding: 80px;
     overflow: hidden;
 
@@ -356,106 +428,57 @@ color: #E33954 !important;
 }
 
 
-
-/* contact */
-.contact {
+.contact{
     width: 100%;
-    height: 100%;
-    padding: 250px 80px;
+    height: auto;
     overflow: hidden;
-
+    padding-top: 150px;
 }
-
-.contact .heading h2 {
-    font-size: 25px;
-    color: #E33954;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-
-
-}
-
-
-
-.contact .heading p {
-    
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.7;
+.contact .info {
+    width: 100%;
+  }
+  
+  .contact .info i {
+    font-size: 20px;
     color: #fff;
-    margin: 20px 0 60px;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-
-
-}
-
-.contact .form-control {
-    padding: 16px;
-    font-size: 13px;
-    margin-bottom: 10px;
-    background: #fff;
-    border: 0;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-
-
-}
-
-
-
-.contact .title h3 {
-    font-size: 18px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
     font-weight: 600;
+    margin-bottom: 5px;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-
-
-}
-
-.contact .title p {
-    font-size: 16px;
-    font-weight: 400;
+  }
+  
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
     color: #fff;
-    line-height: 1.6;
-    margin: 0 0 40px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-
-}
-
-.contact .content .info {
-    margin-top: 30px;
-}
-
-.contact .content .info i {
-    font-size: 30px;
-    padding: 0;
-    margin: 0;
-    color: #fff;
-    margin-right: 20px;
-    text-align: center;
-    width: 20px;
-}
-
-.contact .content .info h4 {
-    font-size: 13px;
-    line-height: 1.4;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.contact .content .info h4 span {
-    font-size: 13px;
-    font-weight: 300;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-
-}
+  }
+  
+  .contact .info .email,
+  .contact .info .phone {
+    margin-top: 40px;
+  }
+  
+  .contact .php-email-form {
+    width: 100%;
+  }
+  
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  
 .contact .btn {
     background-color: #E33954;
     color: #fff;
@@ -474,9 +497,11 @@ color: #E33954 !important;
     border: 1px solid #fff;
 
 }
-.buton{
+.but{
     padding-top: 30px;
 }
+
+
 
 
 
@@ -640,80 +665,126 @@ footer span {
     }
 
 
-  /* service */
-.txt {
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    padding-left: 20px;
-
-
-}
-
-.service {
-    width: 100%;
-    overflow: hidden;
-
-}
-
-.service h2 {
-    font-size: 25px;
-    color: #E33954;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.service_para {
-    font-weight: 300;
-    color: #fff;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.service_heading {
-    text-align: center;
-}
+    .txt {
+        font-size: 23px;
 
 
 
-.service_container {
-    padding: 60px 0px;
-}
+    }
 
-.service.s-1.h3 {
-    font-size: 20px;
-}
+    .service h2 {
+        font-size: 20px;
 
-.main {
-    width: 10%;
-    height: 10%;
-   
-}
+    }
 
+    .service_para {
 
-.skill :hover {
-    background-color: #161922;
-    color: #000;
+        font-size: 16px;
+    }
+
+    .service_heading {
+        text-align: center;
+    }
+
+    .service {
+        padding-top: 50px;
+    }
+
+    .service_container {
+        padding: 60px 0px;
+    }
+
+    .service.s-1.h3 {
+        font-size: 20px;
+    }
+
+    .ht {
+        width: 27px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .cs {
+        width: 25px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .js {
+        width: 33px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .ai {
+        width: 34px;
+        margin: 18px;
+        text-align: center;
+
+    }
+
+    .ps {
+        width: 35px;
+        margin: 20px;
+        text-align: center;
+
+    }
+
+    .fg {
+        width: 30px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .tw {
+        width: 33px;
+        margin: 16px;
+        text-align: center;
+    }
+
+    .bs {
+        width: 32px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .wpr {
+        width: 35px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .jq {
+        width: 40px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .sop {
+        width: 30px;
+        margin: 18px;
+        text-align: center;
+    }
+
+    .gh {
+        width: 40px;
+        height: 40px;
+        margin: 18px;
+        text-align: center;
     }
 
 
-.s-1 {
-    background-color: #3B2B68;
-    padding: 10px;
-    margin: 10px;
-    width: 100%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+    .s-1 {
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        border-radius: 15px;
 
-}
+    }
 
-.skill {
-    margin: 10px 0px;
-}
+    .skill {
+        margin: 10px 0px;
+    }
 
     .portfolio {
         padding: 80px;
@@ -877,80 +948,137 @@ footer span {
     }
 
 
-   /* service */
-.txt {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    padding-left: 25px;
+    .txt {
+        font-size: 14px;
 
+    }
 
-}
+    .service h2 {
+        font-size: 20px;
 
-.service {
-    width: 90%;
-    overflow: hidden;
+    }
 
-}
+    .service_para {
 
-.service h2 {
-    font-size: 25px;
-    color: #E33954;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
 
-}
+    .service_heading {
+        text-align: center;
+    }
 
-.service_para {
-    font-weight: 300;
-    color: #fff;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-}
+    .service {
+        padding-top: 10px;
+    }
 
-.service_heading {
-    text-align: center;
-}
+    .service_container {
+        padding: 30px 0px;
+    }
 
+    .service.s-1.h3 {
+        font-size: 20px;
+    }
 
+    .ht {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
 
-.service_container {
-    padding: 60px 0px;
-}
+    .cs {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
 
-.service.s-1.h3 {
-    font-size: 0px;
-}
+    .js {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
 
-.main {
-    width: 10%;
-    height: 10%;
-   
-}
+    .ai {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
 
+    }
 
-.skill :hover {
-    background-color: #161922;
-    color: #000;
+    .ps {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+
+    }
+
+    .fg {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .tw {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .bs {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .wpr {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .jq {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .sop {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .gh {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        text-align: center;
     }
 
 
-.s-1 {
-    background-color: #3B2B68;
-    padding: 10px;
-    margin: 10px;
-    width: 100%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
 
-}
 
-.skill {
-    margin: 10px 0px;
-}
+    .s-1 {
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        border-radius: 15px;
+
+    }
+
+    .skill {
+        margin: 10px 0px;
+    }
 
     .portfolio {
         padding: 80px;
@@ -1008,98 +1136,28 @@ footer span {
         display: block;
     }    
     
-.contact{
-    width: 100%;
+
+.contact .btn {
+    background-color: #E33954;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    
+
 }
-    .contact .heading h2 {
-        font-size: 15px;
-        color: #E33954;
-        font-weight: 500;
-        font-family: 'Poppins', sans-serif;
-    }
-    .contact .heading p {
-    
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 1.7;
-        color: #fff;
-        margin: 20px 0 60px;
-        padding: 0;
-        font-family: 'Poppins', sans-serif;
-    
-    }
-    
-    .contact .form-control {
-        padding: 30px;
-        font-size: 13px;
-        margin-bottom: 10px;
-        background: #f9f9f9;
-        border: 0;
-        border-radius: 10px;
-        font-family: 'Poppins', sans-serif;
-    
-    }
-    
-    
-    
-    .contact .title h3 {
-        font-size: 18px;
-        font-weight: 600;
-        color: #fff;
-        font-family: 'Poppins', sans-serif;
-    
-    }
-    
-    .contact .title p {
-        font-size: 14px;
-        font-weight: 400;
-        color: #fff;
-        line-height: 1.6;
-        margin: 0 0 40px;
-        font-family: 'Poppins', sans-serif;
-    
-    }
-    
-    .contact .content .info {
-        margin-top: 30px;
-    }
-    
-    .contact .content .info i {
-        font-size: 30px;
-        padding: 0;
-        margin: 0;
-        color: #fff;
-        margin-right: 20px;
-        text-align: center;
-        width: 20px;
-    }
-    
-    .contact .content .info h4 {
-        font-size: 13px;
-        line-height: 1.4;
-        color: #fff;
-        font-family: 'Poppins', sans-serif;
-    
-    }
-    
-    .contact .content .info h4 span {
-        font-size: 13px;
-        font-weight: 300;
-        color: #fff;
-        font-family: 'Poppins', sans-serif;
-    
-    }
-    .contact .btn {
-        background-color: #E33954;
-        color: #fff;
-        padding: 8px 15px;
-        border-radius: 10px;
-        font-weight: 300;
-        font-size: 18px;
-        font-family: 'Poppins', sans-serif;
-        
-    
-    }
+
+.contact .btn:hover {
+    background-color: #161922;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+.buton{
+    padding-top: 30px;
+}
 
     footer p {
         font-size: 16px;
