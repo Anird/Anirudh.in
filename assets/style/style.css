@@ -588,126 +588,80 @@ footer span {
     }
 
 
-    .txt {
-        font-size: 23px;
+   /* service */
+.txt {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 20px;
+
+
+}
+
+.service {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.service h2 {
+    font-size: 25px;
+    color: #E33954;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.service_para {
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service_heading {
+    text-align: center;
+}
 
 
 
-    }
+.service_container {
+    padding: 60px 0px;
+}
 
-    .service h2 {
-        font-size: 20px;
+.service.s-1.h3 {
+    font-size: 20px;
+}
 
-    }
+.main {
+    width: 10%;
+    height: 10%;
+   
+}
 
-    .service_para {
 
-        font-size: 16px;
-    }
-
-    .service_heading {
-        text-align: center;
-    }
-
-    .service {
-        padding-top: 50px;
-    }
-
-    .service_container {
-        padding: 60px 0px;
-    }
-
-    .service.s-1.h3 {
-        font-size: 20px;
-    }
-
-    .ht {
-        width: 27px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .cs {
-        width: 25px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .js {
-        width: 33px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .ai {
-        width: 34px;
-        margin: 18px;
-        text-align: center;
-
-    }
-
-    .ps {
-        width: 35px;
-        margin: 20px;
-        text-align: center;
-
-    }
-
-    .fg {
-        width: 30px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .tw {
-        width: 33px;
-        margin: 16px;
-        text-align: center;
-    }
-
-    .bs {
-        width: 32px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .wpr {
-        width: 35px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .jq {
-        width: 40px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .sop {
-        width: 30px;
-        margin: 18px;
-        text-align: center;
-    }
-
-    .gh {
-        width: 40px;
-        height: 40px;
-        margin: 18px;
-        text-align: center;
+.skill :hover {
+    background-color: #161922;
+    color: #000;
     }
 
 
-    .s-1 {
-        padding: 10px;
-        margin: 10px;
-        width: 100%;
-        border-radius: 15px;
+.s-1 {
+    background-color: #3B2B68;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 
-    }
+}
 
-    .skill {
-        margin: 10px 0px;
-    }
+.skill {
+    margin: 10px 0px;
+}
 
     .portfolio {
         padding: 80px;
@@ -871,137 +825,80 @@ footer span {
     }
 
 
-    .txt {
-        font-size: 14px;
+   /* service */
+.txt {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 20px;
+    align-items: center;
 
-    }
+}
 
-    .service h2 {
-        font-size: 20px;
+.service {
+    width: 100%;
+    overflow: hidden;
 
-    }
+}
 
-    .service_para {
+.service h2 {
+    font-size: 25px;
+    color: #E33954;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 
-        font-size: 16px;
-    }
+}
 
-    .service_heading {
-        text-align: center;
-    }
+.service_para {
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
 
-    .service {
-        padding-top: 10px;
-    }
+.service_heading {
+    text-align: center;
+}
 
-    .service_container {
-        padding: 30px 0px;
-    }
 
-    .service.s-1.h3 {
-        font-size: 20px;
-    }
 
-    .ht {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
+.service_container {
+    padding: 60px 0px;
+}
 
-    .cs {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
+.service.s-1.h3 {
+    font-size: 20px;
+}
 
-    .js {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
+.main {
+    width: 10%;
+    height: 10%;
+   
+}
 
-    .ai {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
 
-    }
-
-    .ps {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-
-    }
-
-    .fg {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
-
-    .tw {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
-
-    .bs {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
-
-    .wpr {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
-
-    .jq {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
-
-    .sop {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
-    }
-
-    .gh {
-        width: 25px;
-        height: 25px;
-        margin: 8px;
-        text-align: center;
+.skill :hover {
+    background-color: #161922;
+    color: #000;
     }
 
 
+.s-1 {
+    background-color: #3B2B68;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 
+}
 
-    .s-1 {
-        padding: 10px;
-        margin: 10px;
-        width: 100%;
-        border-radius: 15px;
-
-    }
-
-    .skill {
-        margin: 10px 0px;
-    }
+.skill {
+    margin: 10px 0px;
+}
 
     .portfolio {
         padding: 80px;
