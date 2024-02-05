@@ -356,6 +356,8 @@ color: #E33954 !important;
 /* contact */
 .contact {
     padding: 50px 0;
+    overflow: hidden;
+
 }
 
 .contact .heading h2 {
@@ -488,6 +490,8 @@ footer span {
     .home {
         width: 100%;
         height: 100vh;
+        overflow: hidden;
+
 
 
     }
@@ -705,6 +709,8 @@ footer span {
 
     .portfolio {
         padding: 80px;
+        overflow: hidden;
+
     }
 
 
@@ -739,6 +745,7 @@ footer span {
 /* contact */
 .contact {
     padding: 50px 0;
+    overflow: hidden;
 }
 
 .contact .heading h2 {
@@ -857,6 +864,7 @@ footer span {
     .home {
         width: 100%;
         height: 100vh;
+        overflow: hidden;
 
     }
 
@@ -1052,9 +1060,10 @@ footer span {
 .skill {
     margin: 10px 0px;
 }
-
+/* portfolio */
     .portfolio {
         padding: 80px;
+        overflow: hidden;
     }
     .nav-pills .nav-link{
     background-color: #fff;
@@ -1090,8 +1099,8 @@ footer span {
     
     .work-list {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+        gap: 3px;
         margin-top: 50px;
         
     }
@@ -1112,6 +1121,7 @@ footer span {
 /* contact */
 .contact {
     padding: 50px 0;
+    overflow: hidden;
 }
 
 .contact .heading h2 {
