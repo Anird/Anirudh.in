@@ -588,6 +588,8 @@ footer span {
         width: 100%;
         height: auto;
         padding: 80px 0px;
+        overflow: hidden;
+
     }
 
     .about h2 {
@@ -940,6 +942,8 @@ footer span {
         width: 100%;
         height: auto;
         padding: 40px 0px;
+        overflow: hidden;
+
     }
 
     .about h2 {
