@@ -1101,7 +1101,7 @@ footer span {
     .work-list {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
-        gap: 3px;
+        gap: 20px;
         margin-top: 50px;
         
     }
