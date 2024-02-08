@@ -234,6 +234,7 @@
 
 }
 
+
 .service h2 {
     font-size: 25px;
     color: #E33954;
@@ -305,15 +306,17 @@ color: #fff;
 font-family: 'Poppins', sans-serif;
 
 }
-#portfolio .nav-link{
+,portfolio .nav-link{
 color: #fff;
 font-family: 'Poppins', sans-serif;
 
 }
-
+.portfolio .nav-link.active {
+    background-color: #3B2B68 !important;
+}
 
 #portfolio .nav-pills .nav-link.active{
-background: transparent !important;
+background: #3B2B68 !important;
 }
 #portfolio .nav-pills .nav-link:hover{
 color: #E33954 !important;
