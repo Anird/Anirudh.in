@@ -23,7 +23,7 @@
 
 .navbar a {
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     margin-left: 20px;
@@ -344,9 +344,10 @@ color: #E33954 !important;
 
 .work img {
     border-radius: 10px;
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 250px;
     display: block;
+    object-fit: cover;
 }
 
 
@@ -381,16 +382,10 @@ color: #E33954 !important;
     text-transform: capitalize;
 
 }
-
-.contact .form-control {
-    padding: 16px;
-    font-size: 13px;
-    margin-bottom: 10px;
-    background: #fff;
-    border: 0;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-
+.c-img{
+    width: 90%;
+    height: 380px;
+    border-radius: 14px;
 }
 
 
@@ -760,10 +755,11 @@ footer span {
     }
 
     .work img {
+        border-radius: 10px;
         width: 100%;
-        height: 100%;
+        height: 250px;
         display: block;
-        transition: ease-in;
+        object-fit: cover;
     }
     
 /* contact */
@@ -795,15 +791,11 @@ footer span {
 
 }
 
-.contact .form-control {
-    padding: 16px;
-    font-size: 13px;
-    margin-bottom: 10px;
-    background: #fff;
-    border: 0;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-
+.c-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    margin-top: 30px;
 }
 
 
@@ -1141,11 +1133,13 @@ footer span {
     
     
     
-    .work img {
-        width: 50%;
-        height: 100%;
-        display: block;
-    }  
+        .work img {
+            border-radius: 10px;
+            width: 50%;
+            height: 100px;
+            display: block;
+            object-fit: cover;
+        }
     
 /* contact */
 .contact {
@@ -1162,7 +1156,12 @@ footer span {
 
 }
 
-
+.c-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
 
 .contact .heading p {
     
@@ -1176,16 +1175,7 @@ footer span {
 
 }
 
-.contact .form-control {
-    padding: 16px;
-    font-size: 13px;
-    margin-bottom: 25px;
-    background: #fff;
-    border: 0;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
 
-}
 
 
 
