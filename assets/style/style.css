@@ -1079,7 +1079,6 @@ footer span {
 }
 /* portfolio */
     .portfolio {
-        padding: 80px;
         overflow: hidden;
     }
     .nav-pills .nav-link{
@@ -1134,7 +1133,7 @@ footer span {
     
         .work img {
             border-radius: 10px;
-            width: 50%;
+            width: 80%;
             height: 100%;
             display: block;
             object-fit: cover;
