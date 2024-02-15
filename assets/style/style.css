@@ -222,8 +222,8 @@
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    text-align: center;
     padding-left: 20px;
+    margin-top: 10px;
 
 
 }
@@ -634,6 +634,8 @@ footer span {
     font-weight: 400;
     text-align: center;
     padding-left: 20px;
+    margin-top: 10px;
+
 
 
 }
@@ -1009,6 +1011,8 @@ footer span {
     text-align: center;
     padding-left: 20px;
     align-items: center;
+    margin-top: 10px;
+
 
 }
 
