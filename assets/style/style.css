@@ -81,7 +81,9 @@
 
 .home h3 {
     color: #fff;
-    font-size: 38px;
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 
@@ -1174,16 +1176,7 @@ footer span {
 
 }
 
-.contact .form-control {
-    padding: 16px;
-    font-size: 13px;
-    margin-bottom: 25px;
-    background: #fff;
-    border: 0;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
 
-}
 
 
 
